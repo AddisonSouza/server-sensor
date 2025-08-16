@@ -1,0 +1,12 @@
+{
+  "name": "server-sensor",
+  "version": "1.0.0",
+  "description": "Servidor WebSocket para comunicação com ESP",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "ws": "^8.0.0"
+  }
+}
